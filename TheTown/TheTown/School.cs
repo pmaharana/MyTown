@@ -49,7 +49,10 @@ namespace TheTown
         {
             Occupants--;
         }
-
+        public School(string bt)     //string for building type
+        {
+            this.BuildingType = bt;
+        }
 
 
 

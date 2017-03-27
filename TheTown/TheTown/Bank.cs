@@ -10,7 +10,7 @@ namespace TheTown
     {
         public string Name { get; set; }
         public string BuildingType { get; set; }
-        public int NumberOfROom { get; set; }
+        public int NumberOfRoom { get; set; }
         public string ConstructionMaterial { get; set; }
         public double Height { get; set; }
         public double Width { get; set; }
@@ -66,6 +66,19 @@ namespace TheTown
         {
             depositmoney = -_amountofmoney;
         }
+        public Bank (string bt)     //string for building type
+        {
+            this.BuildingType = bt;
+        }
+        public string DisplayName()
+        {
+            return this.Name;
+        }
+        public string ToString()
+        {
+            return $"{this.BuildingType} : {this.Name}";
+        }
+
 
     }
 }
