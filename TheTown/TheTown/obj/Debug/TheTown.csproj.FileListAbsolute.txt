@@ -1,0 +1,6 @@
+C:\Users\prana\tiy\week-3\day-1\MyTown\TheTown\TheTown\bin\Debug\TheTown.exe.config
+C:\Users\prana\tiy\week-3\day-1\MyTown\TheTown\TheTown\bin\Debug\TheTown.exe
+C:\Users\prana\tiy\week-3\day-1\MyTown\TheTown\TheTown\bin\Debug\TheTown.pdb
+C:\Users\prana\tiy\week-3\day-1\MyTown\TheTown\TheTown\obj\Debug\TheTown.csprojResolveAssemblyReference.cache
+C:\Users\prana\tiy\week-3\day-1\MyTown\TheTown\TheTown\obj\Debug\TheTown.exe
+C:\Users\prana\tiy\week-3\day-1\MyTown\TheTown\TheTown\obj\Debug\TheTown.pdb
