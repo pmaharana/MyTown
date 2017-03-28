@@ -41,11 +41,19 @@ namespace TheTown
 
             List<Bank> bankList = new List<Bank>();
 
-            School school1 = new School();
+            School school1 = new School()
+            {
+                NumberOfStudents = 20,
+                NumberOfTeachers = 5
+            };
+
             School school2 = new School();
             School school3 = new School();
 
+
             List<School> schoolList = new List<School>();
+
+            Console.WriteLine(school1.TeacherStudentRatio());
 
 
 

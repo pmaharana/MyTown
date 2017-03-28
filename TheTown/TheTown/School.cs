@@ -10,7 +10,7 @@ namespace TheTown
     {
         public string Name { get; set; }
         public string BuildingType { get; set; }
-        public int NumberOfROom { get; set; }
+        public int NumberOfRoom { get; set; }
         public string ConstructionMaterial { get; set; }
         public double Height { get; set; }
         public double Width { get; set; }
@@ -20,10 +20,13 @@ namespace TheTown
         {
             get { return this.Width*this.Length; }
             
-        }
+        }   
         public int Floors { get; set; }
         public int Classrooms { get; set; }
         public int BathRooms { get; set; }
+        public int NumberOfStudents { get; set; }
+        public int NumberOfTeachers { get; set; }
+        public bool InSession { get; set; }
         public double Volume
         {
             get { return this.Width * this.Length*this.Height; }
@@ -53,8 +56,22 @@ namespace TheTown
         {
             this.BuildingType = bt;
         }
+        public string DisplayName()
+        {
+            return this.Name;
+        }
+        public string Twostring()
+        {
+            return $"{this.BuildingType} : {this.Name}";
+        }
+        public string TeacherStudentRatio()
+        {
+            return $"{this.NumberOfTeachers}:{this.NumberOfStudents}";
+        }
+        public School()
+        {
 
-
+        }
 
 
 

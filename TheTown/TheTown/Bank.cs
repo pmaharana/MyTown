@@ -74,11 +74,14 @@ namespace TheTown
         {
             return this.Name;
         }
-        public string ToString()
+        public string TooString()
         {
             return $"{this.BuildingType} : {this.Name}";
         }
+        public Bank()
+        {
 
+        }
 
     }
 }
